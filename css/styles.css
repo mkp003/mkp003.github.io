@@ -1,4 +1,40 @@
-#banner {
+.banner {
     background-image: url("../images/banner.jpg");
-    background-repeat: no-repeat;
+	background-color: black;
+	color: white;
+	height: 250px;
+	width: 100%;
+}
+
+.nameText {
+    text-align: center;
+	font-size: 400%;
+}
+
+.navbar {
+	background-color:  black;
+	height: 40px;
+	width: 100%;
+	position: absolute;
+	color: white;
+}
+
+.navbarItem {
+	
+}
+
+.about {
+	
+}
+
+.project {
+	
+}
+
+.education {
+	
+}
+
+.contact {
+	
 }
