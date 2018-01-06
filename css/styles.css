@@ -12,15 +12,28 @@
 }
 
 .navbar {
-	background-color:  black;
+	background-color: black;
 	height: 40px;
 	width: 100%;
+	font-size: 200%;
 	position: absolute;
 	color: white;
 }
 
 .navbarItem {
-	
+	display: inline-block;
+	background-color: black;
+    width: 250px;
+    height: 40px;
+	text-align: center;
+}
+
+.navbarItemHover {
+	display: inline-block;
+	background-color: grey;
+    width: 250px;
+    height: 40px;
+	text-align: center;
 }
 
 .about {
