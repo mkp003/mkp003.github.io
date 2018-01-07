@@ -11,6 +11,17 @@
 	font-size: 400%;
 }
 
+.subHead {
+	text-align: center;
+	font-size: 200%;
+	padding-top: 50px;
+}
+
+.subText {
+	text-align: center;
+	font-size: 125%;
+}
+
 .navbar {
 	background-color: black;
 	height: 40px;
@@ -23,6 +34,7 @@
 .navbarItem {
 	display: inline-block;
 	background-color: black;
+	color: white;
     width: 250px;
     height: 40px;
 	text-align: center;
@@ -30,24 +42,37 @@
 
 .navbarItemHover {
 	display: inline-block;
-	background-color: grey;
+	background-color: #e1e1d0;
+	color: black;
     width: 250px;
     height: 40px;
 	text-align: center;
 }
 
 .about {
-	
+	background-color: #e1e1d0;
+	color: black;
+	width: 100%;
 }
 
 .project {
+	background-color: white;
+	color: black;
+	width: 100%;
+}
+
+.subproject {
 	
 }
 
 .education {
-	
+	background-color: #e1e1d0;
+	color: black;
+	width: 100%;
 }
 
 .contact {
-	
+	background-color: white;
+	color: black;
+	width: 100%;
 }
