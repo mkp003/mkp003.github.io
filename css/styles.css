@@ -55,18 +55,28 @@
 	width: 100%;
 }
 
+.aboutImage {
+	background-image: url("../images/galexyBackground.jpg");
+	width: 100%;
+	opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
 .project {
 	background-color: white;
 	color: black;
 	width: 100%;
+	text-align: center;
 }
 
 .subProject {
-	
+	align: middle;
 }
 
 .subProjectImage {
-	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .education {
