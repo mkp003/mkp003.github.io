@@ -73,6 +73,10 @@
 	text-align: center;
 }
 
+.subProjectText {
+	text-align: center;
+}
+
 .subProjectImage {
 	display: block;
     margin-left: auto;
