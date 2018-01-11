@@ -83,6 +83,42 @@
     margin-right: auto;
 }
 
+#projectInfo1, #projectHead1 {
+    padding: 5px;
+    text-align: center;
+    background-color: #e1e1d0;
+    border: solid 1px black;
+}
+
+#projectInfo1 {
+    padding: 50px;
+    display: none;
+}
+
+#projectInfo2, #projectHead2 {
+    padding: 5px;
+    text-align: center;
+    background-color: #c3c3a2;
+    border: solid 1px black;
+}
+
+#projectInfo2 {
+    padding: 50px;
+    display: none;
+}
+
+#projectInfo3, #projectHead3 {
+    padding: 5px;
+    text-align: center;
+    background-color: #e1e1d0;
+    border: solid 1px black;
+}
+
+#projectInfo3 {
+    padding: 50px;
+    display: none;
+}
+
 .education {
 	background-color: #e1e1d0;
 	color: black;

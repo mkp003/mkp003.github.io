@@ -13,8 +13,14 @@
 <!-- JQuery -->
 <script>
 $(document).ready(function(){
-    $(".subProject").click(function(){
-        $(".subProjectText").slideDown("slow");
+    $("#projectHead1").click(function(){
+        $("#projectInfo1").slideToggle("slow");
+    });
+	$("#projectHead2").click(function(){
+        $("#projectInfo2").slideToggle("slow");
+    });
+	$("#projectHead3").click(function(){
+        $("#projectInfo3").slideToggle("slow");
     });
 });
 </script>
@@ -42,7 +48,7 @@ $(document).ready(function(){
 		As you already know, my name is Mackenzie Power. I have recently finished my last semester of a four-year 
 		Computer Science Degree at the University of Saskatchewan. I also have a previous BSc in Biology and Biotechnology 
 		from the University of Saskatchewan as well. My passion for learning new technologies, solving puzzles, and 
-		gaining new skills has driven me towards software programming.  I'm 
+		gaining new skills has driven me towards software programming.  I'm.............
 		</p>
 	</div>
 	<!--Projects Section-->
@@ -50,15 +56,18 @@ $(document).ready(function(){
 		<h2 class="subHead">Projects</h2>
 		<!--Because It's There-->
 		<div class="subProject">
-			<a class="subProjectImage">
+			<div id="projectHead1">
+				<a class="subProjectImage">
 				<h3>Because It's There</h3>
 				<img id="BecauseItsThere" class="subProjectImage" src="images/BecauseItsThereImage.jpg" alt="GamePictures" style="width:300px;height:200px;border:50px;">
-			</a>
-			<a class="subProjectText">
+				</a>
+			</div>
+			<div  id="projectInfo1">
+				<a class="subProjectText">
 				<h4>Languages: C#</h4>
 				<h4>Platforms: Unity, Microsoft Visual Studio</h4>
 				<h4>About</h4>
-				<p> "Because It's There" is a a 2D mountain climbing game developed for CMPT 306 Game Machanics.  The goal of this project was 
+				<p> "Because It's There" is a 2D mountain climbing game developed for CMPT 306 Game Mechanics.  The goal of this project was 
 				to teach us the fundamentals of game development. For this game, we focused on one main technical component: Procedural Generation.
 				Each level is procedurally generated, with the goal of the user to get as high up the mountain as possible. The higher the user 
 				gets up the mountain, the more difficult it becomes. A random weather generator will create stronger winds, more precipitation, 
@@ -70,28 +79,32 @@ $(document).ready(function(){
 						<source src="videos/PigeonOrchestraGameDemo.ogg" type="video/ogg">
 						Your browser does not support HTML5 video. Sorry!
 					</video>
-			</a>
+				</a>
+			</div>
 		</div>
 		<!--371 project-->
 		<div class="subProject">
+			<div id="projectHead2">
 			<a class="subProjectImage">
 				<h3>V-Rad Veterinary Medical Software</h3>
 				<img id="V-Rad" class="subProjectImage" src="images/371project1.jpg" alt="371Image" style="width:300px;height:200px;border:50px;">
 			</a>
+		</div>
+		<div id="projectInfo2">
 			<a class="subProjectText">
 				<h4>Languages: C#</h4>
 				<h4>Platforms: Unity, Microsoft Visual Studio, Oculus Rift</h4>
 				<h4>About</h4>
-				<p> The V-Rad Veterinary Medical Software was a school project done in Dr.Osgood's CMPT 371 Software Managment
+				<p> The V-Rad Veterinary Medical Software was a school project done in Dr.Osgood's CMPT 371 Software Management
 				class. The project was meant to simulate a client-developer relationship where groups of eleven students (each 
-				with assigned roles) would develop a application for a client based on their needs and sepecifications.  Our project 
+				with assigned roles) would develop a application for a client based on their needs and specifications.  Our project 
 				involved creating a virtual reality application for Dr. Mike Wesolowski.  The application was meant to be a replacement 
-				for the tradional radiologists' workstation where they can view x-rays, ultrasounds, catscans, and other medical images 
+				for the traditional radiologists' workstation where they can view x-rays, ultrasounds, cat scans, and other medical images 
 				within a 3D virtual environment. Users can load in DICOM (Digital Imaging and Communications in Medicine) files and be able 
 				to view the patient information associated with each image.  The users can then manipulate and move the images in various 
 				ways that are used by radiologists to examine and make diagnosis'. My role in the project was the Lead Developer, which involved 
-				assigning tasks to other developers, comming up with both a requirements and design document, and ensuring everyone's 
-				coding tasks got completed for each of our deadlines (incuding my own). We had also deceided to enter our project in the 
+				assigning tasks to other developers, coming up with both a requirements and design document, and ensuring everyone's 
+				coding tasks got completed for each of our deadlines (including  my own). We had also decided  to enter our project in the 
 				2017 Society for Imaging Informatics in Medicine (SIIM) challenge to compete against other innovative medical software being 
 				developed by students in North America.</p>
 				<h4>To view our SIIM video submission, click <a href="https://www.youtube.com/watch?v=p-pv-9doi3E&t=">here!</a></h4>
@@ -99,9 +112,13 @@ $(document).ready(function(){
 		</div>
 		<!--481 project-->
 		<div class="subProject">
-			<a class="subProjectImage">
-				<h3>Virtual Reality UI Project</h3>
-				<img id="ResearchVR" class="subProjectImage" src="images/481project1.jpg" alt="481Image" style="width:300px;height:200px;border:50px;">
+			<div id="projectHead3">
+				<a class="subProjectImage">
+					<h3>Virtual Reality UI Project</h3>
+					<img id="ResearchVR" class="subProjectImage" src="images/481project1.jpg" alt="481Image" style="width:300px;height:200px;border:50px;">
+				</a>
+			</div>
+			<div id="projectInfo3">
 				<a class="subProjectText">
 					<h4>Languages: C#</h4>
 					<h4>Platforms: Unity, Microsoft Visual Studio, Oculus Rift</h4>
@@ -118,7 +135,7 @@ $(document).ready(function(){
 						Your browser does not support HTML5 video. Sorry!
 					</video>
 				</a>
-			</a>
+			</div>
 		</div>
 	</div>
 	<!--Education Section-->
