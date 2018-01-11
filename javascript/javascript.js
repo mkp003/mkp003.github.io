@@ -5,6 +5,7 @@ window.onload = function() {
 	var about = document.getElementById("AboutBtn");
 	var projects = document.getElementById("ProjectsBtn");
 	var education = document.getElementById("EducationBtn");
+	var experience = document.getElementById("ExperienceBtn")
 	var contact = document.getElementById("ContactBtn");
 	
 	// Project images
@@ -33,6 +34,10 @@ window.onload = function() {
 		contact.className = "navbarItemHover";
 	}
 	
+	experience.onmouseover = function() {
+		experience.className = "navbarItemHover";
+	}
+	
 	
 	// Navbar hover-off Functions
 	education.onmouseout = function() {
@@ -53,6 +58,10 @@ window.onload = function() {
 	
 	contact.onmouseout = function() {
 		contact.className = "navbarItem";
+	}
+	
+	experience.onmouseout = function() {
+		experience.className = "navbarItem";
 	}
 	
 	

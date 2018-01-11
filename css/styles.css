@@ -26,16 +26,17 @@
 	background-color: black;
 	height: 40px;
 	width: 100%;
-	font-size: 200%;
+	font-size: 150%;
 	position: absolute;
 	color: white;
+	text-align: center;
 }
 
 .navbarItem {
 	display: inline-block;
 	background-color: black;
 	color: white;
-    width: 250px;
+    width: 200px;
     height: 40px;
 	text-align: center;
 }
@@ -44,7 +45,7 @@
 	display: inline-block;
 	background-color: #e1e1d0;
 	color: black;
-    width: 250px;
+    width: 200px;
     height: 40px;
 	text-align: center;
 }
@@ -62,11 +63,10 @@
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
-.project {
+.projects {
 	background-color: white;
 	color: black;
 	width: 100%;
-	text-align: center;
 }
 
 .subProject {
@@ -122,8 +122,14 @@
 	width: 100%;
 }
 
-.contact {
+.experience {
 	background-color: white;
+	color: black;
+	width: 100%;
+}
+
+.contact {
+	background-color: #e1e1d0;
 	color: black;
 	width: 100%;
 }
