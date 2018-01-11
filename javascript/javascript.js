@@ -62,7 +62,7 @@ window.onload = function() {
 	}
 	
 	becauseItsThere.onmouseout = function() {
-		becauseItsThere.src = "images/BecauseItsThereImage.jpg";
+		becauseItsThere.src = "images/BecauseItsThereImage.JPG";
 	}
 	
 	vrad.onmouseover = function() {
@@ -70,7 +70,7 @@ window.onload = function() {
 	}
 	
 	vrad.onmouseout = function() {
-		vrad.src = "images/371project1.jpg";
+		vrad.src = "images/371project1.JPG";
 	}
 	
 	gui.onmouseover = function() {
@@ -78,6 +78,6 @@ window.onload = function() {
 	}
 	
 	gui.onmouseout = function() {
-		gui.src = "images/481project1.jpg";
+		gui.src = "images/481project1.JPG";
 	}
 }
