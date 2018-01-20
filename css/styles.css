@@ -12,6 +12,7 @@
 }
 
 .subHead {
+	margin-top: 0;
 	text-align: center;
 	font-size: 200%;
 	padding-top: 50px;
@@ -108,6 +109,13 @@
 	background-color: #e1e1d0;
 	color: black;
 	width: 100%;
+}
+
+.aboutSticky{
+	background-color: #e1e1d0;
+	color: black;
+	width: 100%;
+	padding-top: 40px;
 }
 
 .aboutImage {

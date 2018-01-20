@@ -85,6 +85,8 @@ window.onload = function() {
 	var nav = document.getElementById("navbar");
 	// Grab the current position of the screen
 	var sticky = nav.offsetTop;
+	// Grab about section
+	var aboutTop = document.getElementById("aboutSection");
 
 	window.onscroll = function(){scrollNavbar()};
 	
@@ -92,8 +94,10 @@ window.onload = function() {
 	function scrollNavbar() {
 		if (window.pageYOffset >= sticky) {
 			nav.classList.add("stickyNavbar");
+			aboutTop.className = "aboutSticky";
 		} else {
 			nav.classList.remove("stickyNavbar");
+			aboutTop.className = "about";
 		}
 	}
 }
