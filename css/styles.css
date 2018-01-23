@@ -183,6 +183,17 @@
     display: none;
 }
 
+#projectInfo4, #projectHead4 {
+    padding: 5px;
+    text-align: center;
+    background-color: #c3c3a2;
+}
+
+#projectInfo4 {
+    padding: 50px;
+    display: none;
+}
+
 .skillItem {
 	display: inline-block;
 	color: black;
@@ -203,14 +214,14 @@
 }
 
 .education {
-	background-color: #e1e1d0;
+	background-color: white;
 	color: black;
 	width: 100%;
 	text-align: center;
 }
 
 .contact {
-	background-color: #e1e1d0;
+	background-color: white;
 	color: black;
 	width: 100%;
 }

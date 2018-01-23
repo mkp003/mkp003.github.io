@@ -11,6 +11,7 @@ window.onload = function() {
 	var becauseItsThere = document.getElementById("BecauseItsThere");
 	var vrad = document.getElementById("V-Rad");
 	var gui = document.getElementById("ResearchVR");
+	var battlebots = document.getElementById("battleBots");
 	
 	// Navbar hover-over Functions
 	home.onmouseover = function() {
@@ -32,6 +33,7 @@ window.onload = function() {
 	contact.onmouseover = function() {
 		contact.className = "navbarItemHover";
 	}
+	
 	
 	
 	// Navbar hover-off Functions
@@ -79,6 +81,14 @@ window.onload = function() {
 	
 	gui.onmouseout = function() {
 		gui.src = "images/481project1.JPG";
+	}
+	
+	battlebots.onmouseover = function() {
+		battlebots.src = "images/370battlebots1.jpg";
+	}
+	
+	battlebots.onmouseout = function() {
+		battlebots.src = "images/370battlebots.jpg";
 	}
 	
 	// Grabbing the navbar 
