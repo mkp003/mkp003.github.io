@@ -221,10 +221,13 @@
 	color: black;
 	width: 100%;
 	text-align: center;
+	margin-top: 25px;
 }
 
 .contact {
 	background-image: url("../images/galexyBackground5.jpg");
 	color: white;
 	width: 100%;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
