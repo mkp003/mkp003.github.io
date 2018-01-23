@@ -1,6 +1,7 @@
 .body {
 	margin-left: 0px;
 	margin-right: 0px;
+	background-color: black;
 }
 
 .banner {
@@ -9,6 +10,8 @@
 	color: white;
 	height: 250px;
 	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .nameText {
@@ -131,8 +134,8 @@
 }
 
 .projects {
-	background-color: white;
-	color: black;
+	background-image: url("../images/galexyBackground5.jpg");
+	color: white;
 	width: 100%;
 }
 
@@ -153,7 +156,7 @@
 #projectInfo1, #projectHead1 {
     padding: 5px;
     text-align: center;
-    background-color: #e1e1d0;
+    background-image: url("../images/galexyBackground1.jpg");
 }
 
 #projectInfo1 {
@@ -164,7 +167,7 @@
 #projectInfo2, #projectHead2 {
     padding: 5px;
     text-align: center;
-    background-color: #c3c3a2;
+    background-image: url("../images/galexyBackground2.jpg");
 }
 
 #projectInfo2 {
@@ -175,7 +178,7 @@
 #projectInfo3, #projectHead3 {
     padding: 5px;
     text-align: center;
-    background-color: #e1e1d0;
+    background-image: url("../images/galexyBackground3.jpg");
 }
 
 #projectInfo3 {
@@ -186,7 +189,7 @@
 #projectInfo4, #projectHead4 {
     padding: 5px;
     text-align: center;
-    background-color: #c3c3a2;
+    background-image: url("../images/galexyBackground4.jpg");
 }
 
 #projectInfo4 {
@@ -221,7 +224,7 @@
 }
 
 .contact {
-	background-color: white;
-	color: black;
+	background-image: url("../images/galexyBackground5.jpg");
+	color: white;
 	width: 100%;
 }
