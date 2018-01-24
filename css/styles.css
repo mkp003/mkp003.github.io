@@ -141,6 +141,11 @@
 
 .subProject {
 	text-align: center;
+	border-top: 10px solid black;
+	border-right: 10px solid black;
+	border-left: 10px solid black;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .subProjectText {
