@@ -117,6 +117,7 @@
 	background-image: url("../images/galexyBackground7.jpg");
 	color: black;
 	width: 100%;
+	padding-bottom: 40px;
 }
 
 .aboutSticky{
@@ -124,6 +125,7 @@
 	color: black;
 	width: 100%;
 	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 /* Not Used */
@@ -138,6 +140,7 @@
 	background-image: url("../images/galexyBackground5.jpg");
 	color: white;
 	width: 100%;
+	padding-bottom: 40px;
 }
 
 .subProject {
@@ -145,6 +148,16 @@
 	border-top: 10px solid black;
 	border-right: 10px solid black;
 	border-left: 10px solid black;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.subProjectBottom {
+	text-align: center;
+	border-top: 10px solid black;
+	border-right: 10px solid black;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
 	margin-left: 50px;
 	margin-right: 50px;
 }
@@ -168,6 +181,7 @@
 #projectInfo1 {
     padding: 50px;
     display: none;
+	border-top: 5px solid black;
 }
 
 #projectInfo2, #projectHead2 {
@@ -179,6 +193,7 @@
 #projectInfo2 {
     padding: 50px;
     display: none;
+	border-top: 5px solid black;
 }
 
 #projectInfo3, #projectHead3 {
@@ -190,6 +205,7 @@
 #projectInfo3 {
     padding: 50px;
     display: none;
+	border-top: 5px solid black;
 }
 
 #projectInfo4, #projectHead4 {
@@ -201,6 +217,7 @@
 #projectInfo4 {
     padding: 50px;
     display: none;
+	border-top: 5px solid black;
 }
 
 .skillItem {
@@ -228,6 +245,7 @@
 	width: 100%;
 	text-align: center;
 	margin-top: 25px;
+	padding-bottom: 40px;
 }
 
 .contact {
@@ -236,4 +254,5 @@
 	width: 100%;
 	margin-top: 25px;
 	margin-bottom: 25px;
+	padding-bottom: 40px;
 }
