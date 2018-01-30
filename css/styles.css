@@ -66,6 +66,21 @@
 	color: white;
 	text-align: center;
 	}
+	
+	.subProject {
+	text-align: center;
+	border-top: 10px solid black;
+	border-right: 10px solid black;
+	border-left: 10px solid black;
+}
+
+	.subProjectBottom {
+	text-align: center;
+	border-top: 10px solid black;
+	border-right: 10px solid black;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+	}
 
 }
 
@@ -98,6 +113,25 @@
 	color: white;
 	text-align: center;
 	}
+	
+	.subProject {
+	text-align: center;
+	border-top: 10px solid black;
+	border-right: 10px solid black;
+	border-left: 10px solid black;
+	margin-left: 50px;
+	margin-right: 50px;
+	}
+
+	.subProjectBottom {
+	text-align: center;
+	border-top: 10px solid black;
+	border-right: 10px solid black;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+	margin-left: 50px;
+	margin-right: 50px;
+	}
 }
 
 @media only screen and (min-width: 1100px) {
@@ -129,6 +163,25 @@
 	color: white;
 	text-align: center;
 	}
+	
+	.subProject {
+	text-align: center;
+	border-top: 10px solid black;
+	border-right: 10px solid black;
+	border-left: 10px solid black;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+	.subProjectBottom {
+	text-align: center;
+	border-top: 10px solid black;
+	border-right: 10px solid black;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+	margin-left: 50px;
+	margin-right: 50px;
+	}
 }
 
 .about {
@@ -159,25 +212,6 @@
 	color: white;
 	width: 100%;
 	padding-bottom: 40px;
-}
-
-.subProject {
-	text-align: center;
-	border-top: 10px solid black;
-	border-right: 10px solid black;
-	border-left: 10px solid black;
-	margin-left: 50px;
-	margin-right: 50px;
-}
-
-.subProjectBottom {
-	text-align: center;
-	border-top: 10px solid black;
-	border-right: 10px solid black;
-	border-left: 10px solid black;
-	border-bottom: 10px solid black;
-	margin-left: 50px;
-	margin-right: 50px;
 }
 
 .subProjectText {
