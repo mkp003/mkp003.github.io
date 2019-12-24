@@ -283,12 +283,18 @@
 
 .skillBackground1 {
 	background-color: #e1e1d0;
-	width: 100%;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .skillBackground2 {
 	background-color: #c3c3a2;
-	width: 100%;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .education {
