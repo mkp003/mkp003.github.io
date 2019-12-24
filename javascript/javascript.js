@@ -40,19 +40,15 @@ window.onload = function() {
 	education.onmouseout = function() {
 		education.className = "navbarItem";
 	}
-
 	home.onmouseout = function() {
 		home.className = "navbarItem";
 	}
-
 	about.onmouseout = function() {
 		about.className = "navbarItem";
 	}
-	
 	projects.onmouseout = function() {
 		projects.className = "navbarItem";
 	}
-	
 	contact.onmouseout = function() {
 		contact.className = "navbarItem";
 	}
@@ -62,31 +58,24 @@ window.onload = function() {
 	becauseItsThere.onmouseover = function() {
 		becauseItsThere.src = "images/BecauseItsThereImageHover.jpg";
 	}
-	
 	becauseItsThere.onmouseout = function() {
 		becauseItsThere.src = "images/BecauseItsThereImage.JPG";
 	}
-	
 	vrad.onmouseover = function() {
 		vrad.src = "images/371project1Hover.jpg";
 	}
-	
 	vrad.onmouseout = function() {
 		vrad.src = "images/371project1.JPG";
 	}
-	
 	gui.onmouseover = function() {
 		gui.src = "images/481project1Hover.jpg";
 	}
-	
 	gui.onmouseout = function() {
 		gui.src = "images/481project1.JPG";
 	}
-	
 	battlebots.onmouseover = function() {
 		battlebots.src = "images/370battlebots1.jpg";
 	}
-	
 	battlebots.onmouseout = function() {
 		battlebots.src = "images/370battlebots.jpg";
 	}
